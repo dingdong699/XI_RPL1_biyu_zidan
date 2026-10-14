@@ -55,10 +55,10 @@
   // Membuat objek siswa
   $siswa1 = new laporanSiswa("Ahmad Naruto", "10 IPA 1");
   $siswa2 = new laporanSiswa("Sakura Lestari", "12 TKR 5");
-  $siswa3 = new laporanSiswa("Dimas Arla Nova", "11 RPL 1");
-   $siswa4 = new laporanSiswa("Muhammad Yafi Nadhir Amrullah", "11 RPL 1");
+  $siswa3 = new laporanSiswa("zidan azkiya", "11 RPL 1");
+   $siswa4 = new laporanSiswa("abiyyu fawwas anggareksa", "11 RPL 1");
   // Membuat objek guru
-  $guru1 = new laporanGuru("Muhammad Yafi Nadhir Amrullah. S.S", "Matematika");
+  $guru1 = new laporanGuru("guru ini", "Matematika");
   $guru2 = new laporanGuru("Haris Galih Fauzi. S.kom","Produktif");
   echo "<h1><u>Daftar Cetak Dokumen Sekolah</u></h1>";
   //mencetak menggunakan class cetakManager(Hasil polimorfisme)

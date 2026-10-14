@@ -30,8 +30,8 @@
         }
     }
     //penggunaan code
-$staff = new karyawan("yafi", 10000000);
-$manager = new manager("dimas", 10000000, 2000000);
+$staff = new karyawan("zidan", 10000000);
+$manager = new manager("biyu", 10000000, 2000000);
 //1. staff menggunakan method bawaan karyawan 
 echo "Nama Karyawan : " . $staff -> getNama() . " | Total Gaji : Rp. " . number_format($staff -> hitungTotalGaji(),0,',','.'). "<br>";
 $totalGajiManajer = $manager->hitungTotalGaji() + $manager->getBonus();

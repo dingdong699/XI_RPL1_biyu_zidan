@@ -57,9 +57,9 @@ function cetakGaji(pegawai $pegawai){ //mwenerima objek dan turunannya
 }
 //penggunaan class dan fungsi
 
-$pegawaiBiasa = new pegawai("Yafi", 3000000);
-$pegawaiFreelance = new freelancer("Dimas", 2000000, 4);
-$pegawaiTetap = new karyawanTetap("Arla", 5000000, 2000000);
+$pegawaiBiasa = new pegawai("wong iki", 3000000);
+$pegawaiFreelance = new freelancer("wong kwi", 2000000, 4);
+$pegawaiTetap = new karyawanTetap("wong kae", 5000000, 2000000);
 
 //menggunakan satu fungsi yang sama untuk berbagai objek
 cetakGaji($pegawaiBiasa);
